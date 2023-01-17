@@ -6,7 +6,7 @@ const { getProuducts , getProuductsById } = require("../Controller/product-contr
 const { userSignup, userLogin } = require("../Controller/userController");
 const router = express.Router();
 
-router.post("/" , (req,res)=>{
+router.get("/" , (req,res)=>{
     res.send("Welcome to flipkart backend")
 })
 
